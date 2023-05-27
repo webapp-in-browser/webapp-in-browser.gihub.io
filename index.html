@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web app in browser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="gr">
+<header>
+<h1 id = 'timer1'>Web app in browser</h1>
+<h3>Проект Берлина Андрея</h3>
+    <p id = 'p1'></p>
+<!--p>Click on the buttons inside the tabbed menu:</p-->
+</header>
+<section>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">О проекте:</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Блог проекта:</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Твиттер проекта:</button>
+</div>
+
+<div id="London" class="tabcontent">
+  
+  <h2>О проекте:</h2>
+
+   <iframe src="https://web-app-in-browser.blogspot.com/p/blog-page.html?m=1" frameborder="0">
+
+
+
+
+
+
+   </iframe>
+
+ <!--div class="radio_playlist">
+<ul>
+<li id ="1">
+Я front-end разработчик. Я разрабатываю веб приложения для браузера. Я хочу, чтобы мои приложения удовлетворяли повседневные нужды. 
+    
+
+ </li>
+    <br>
+    <li>
+В Блоге и Твиттере проекта, будут публиковаться ссылки на приложения.
+
+ </li>
+ <br>
+    <li>
+ Все приложения работают на javascript, поэтому, если у вас в браузере отключен javascript, то приложение работать не будет. 
+   
+     
+     </li>
+     <br>
+     
+      
+     <li>
+       Для дополнительной информации со мной можно связаться через Твиттер. Желаю удачи!
+       
+     </li>
+     </ul>
+</div-->
+</div>
+<div id="Paris" class="tabcontent">
+<h2>Мой блог:</h2>
+
+   <iframe src="https://webapp-in-browser.blogspot.com/?m=1" frameborder="0">
+
+
+
+
+
+
+   </iframe>
+
+</div>
+
+<div id="Tokyo" class="tabcontent">
+<a class="twitter-timeline" href="https://twitter.com/andrewberlin96?ref_src=twsrc%5Etfw">
+Tweets by andrewberlin96</a>
+
+          
+
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</section>
+<footer>
+  
+<p id = "date"></p>
+<p id = "timer"></p>
+<hr>
+
+</footer>
+</div>
+<script src="script.js">
+
+</script>
+   
+</body>
+</html> 
