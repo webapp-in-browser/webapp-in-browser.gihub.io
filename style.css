@@ -37,8 +37,8 @@ text-align: center;
 
 footer {
 
-  background-image: linear-gradient(white,#5e5351);
-    color: black;
+  /*background-image: linear-gradient(white,#5e5351);*/
+    color: white;
 
    /* background:#b4dad9;*/
     text-align: center;
